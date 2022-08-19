@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock & EDM Festival</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+    <header class="header">
+        <div class="contenedor contenido-header">
+            <h1>Rock & EDM Festival</h1>
+            <nav class="navegacion-principal">
+            <a href="#lineup">Line UP</a>
+            <a href="#galeria">Gallery</a>
+            <a href="#boletos">Tikects</a>
+        </nav>
+        </div>
+    </header>
+    <div class="video">
+        <div class="overlay">
+            <div class="contenedor contenido-video">
+                <h2>Rock & EDM Festival</h2>
+                <p>September 2023,Berlin Germany</p>
+            </div>
+        </div>
+        <video autoplay loop muted>
+            <source src="video/concierto.mp4" type="video/mp4">
+            <source src="video/concierto.ogg" type="video/mp4">
+            <source src="video/concierto.webm" type="video/mp4">
+        </video>
+    </div>
+    <section class="contenedor sobre-festival">
+        <div class="imagen">
+            <picture>
+                <source srcset="build/img/imagen_vocalista.avif" type="image/avif">
+                <source srcset="build/img/imagen_vocalista.webp" type="image/webp">
+                <img  width="200" height="300" loading="laizy" src="build/img/imagen_vocalista.jpg"alt="imagen vocalista">
+            </picture>
+        </div>
+
+        <div class="contenido-festival">
+            <h2>Rock & EDM Festival</h2>
+            <p class="fecha">September 2023,Berlin Germany</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor te
+                netur explicabo eos tempora amet! Optio natus voluptatum, minima quas re
+                cusandae obcaecati quos 
+                in nesciunt ullam quae eveniet nostrum officiis deleniti!</p>
+        </div>
+    </section>
+    <section id="lineup" class="lineup">
+        <h3>Line Up</h3>
+
+        <p class="dia">Fraiday 15</p>
+
+        <div class="escenarios-contenedor contenedor">
+            <div class="escenario rock bg-amarillo">
+                <p class="nombre-escenario">Rock Scenery </p>
+
+                <ul class="calendario">
+                    <li>7 PM |<span> Red Hot Chili Pepers </span></li>
+                    <li>8 PM |<span> Gun`s and roses </span></li>
+                    <li>9 PM |<span> Limp Bizkit </span></li>
+                    <li>10 PM |<span> Genesis </span></li>
+                    <li>11 PM |<span> Led Zeppelin </span></li>
+                </ul>
+            </div> <!--Fin escenario -->
+            <div class="escenario edm bg-verde">
+                <p class="nombre-escenario">EDM Scenery</p>
+                <ul class="calendario">
+                    <li>10 AM |<span> David Guetta</span></li>
+                    <li>11 AM |<span> Deadmau5 </span></li>
+                    <li>12 AM |<span> Skrillez </span></li>
+                    <li>1 PM | <span>Alan Walker </span></li>
+                    <li>2 PM | <span>Audien </span></li>
+                </ul>
+            </div> <!--Fin escenario -->
+        </div> <!--Fin escenario Content-->
+
+        <p class="dia">Sunday 16</p>
+
+        <div class="escenarios-contenedor contenedor">
+            <div class="escenario rock bg-verde">
+                <p class="nombre-escenario">Rock Scenery </p>
+                <ul class="calendario">
+                    <li>5 PM |<span> Mettalica </span></li>
+                    <li>6 PM |<span> Braking Benjamin </span></li>
+                    <li>7 PM |<span> Nirvana </span></li>
+                    <li>8 PM |<span> 30 seconds to mars </span></li>
+                    <li>9 PM |<span> Muse </span></li>
+                </ul>
+            </div> <!--Fin escenario -->
+            <div class="escenario edm bg-amarillo">
+                <p class="nombre-escenario">EDM Scenery</p>
+                <ul class="calendario">
+                    <li>3 PM |<span> Tiesto</span></li>
+                    <li>4 PM |<span> Hardwell </span></li>
+                    <li>5 PM|<span> Dash Berlin </span></li>
+                    <li>6 PM|<span> Fedde Legrand </span></li>
+                    <li>7 PM |<span> Vini Vici </span></li>
+                </ul>
+            </div> <!--Fin escenario -->
+        </div> <!--Fin escenario Content-->
+    </section>
+    <section id="galeria" class="galeria contenedor">
+        <h3>Gallery</h3>
+
+        <ul class="galeria-imagenes"></ul>
+    </section>
+
+    <section id="boletos" class="boletos bg-verde">
+        <h3>Tickets</h3>
+        <div class="contenedor contenedor-boletos">
+            <div class="basico pase">
+                <p class="nombre-pase">1 Day</p>
+                <header class="pase-heading">
+                    <p>Includes </p>
+
+                </header>
+                <div class="pase-body">
+                    <ul>
+                        <li>Access To All Scenarios</li>
+                        <li>Food And Drink</li>
+                    </ul>
+                </div>
+
+                <footer class="pase-footer">
+                    <p>$30</p>
+                </footer>
+            </div>
+            <div class="premium pase">
+                <p class="nombre-pase">2 Days</p>
+                <header class="pase-heading">
+                    <p>Includes </p>
+
+                </header>
+                <div class="pase-body">
+                    <ul>
+                        <li>Access To All Scenarios</li>
+                        <li>Food And Drink</li>
+                        <li>The Best Seats</li>
+                        <li>VIP Pass</li>
+                        <li>T-shirt Of The Event</li>
+                    </ul>
+                </div>
+
+                <footer class="pase-footer">
+                    <p>$50</p>
+                </footer>
+            </div>
+        </div>
+    </section>
+    <footer class="site-footer">
+        <p>rock & EDM festival. all rights reserved.</p>
+    </footer>
+    <script src="build/js/app.js"></script>
+</body>
+</html>
+
+
+
+ 

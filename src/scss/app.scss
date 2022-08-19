@@ -1,0 +1,10 @@
+//*forma anterior
+// @import "base/variables";
+// @import "contenido/contenido"
+
+//*nueva forma
+//*es necesario un index.scss
+//*@use lo usa mientras que import solo apunta a donde estan esos archivos
+
+@use  "base"; 
+@use "layout";
